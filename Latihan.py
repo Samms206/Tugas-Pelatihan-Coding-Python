@@ -110,3 +110,10 @@ print("suhunya adalah = ",reamur,"Reamur")
 fahrenheit = 1.8 * (kelvin - 273) + 32
 print("suhunya adalah = ",fahrenheit,"Fahrenheit")
 
+print("\nPROGRAM MENENTUKAN BANGUN RUANG VOLUME BOLA\n")
+# V = 4/3 x π x r^3
+
+jari = int(input("masukan jari-jari untuk menentukan valume sebuah bola = "))
+volume = jari*jari*jari*4/3*22/7
+print("Volumme Lingkaran adalah = ",volume)
+
